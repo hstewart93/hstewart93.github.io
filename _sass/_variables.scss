@@ -56,6 +56,28 @@ $darkest-gray               : #181c24;
 $dark-orchid                : #9932CC;
 $green-yellow               : #ADFF2F;
 
+/* Color Theme Swatches in Hex */
+$Monokai-Pro-1-hex          : #FF6188;
+$Monokai-Pro-2-hex          : #A9DC76;
+$Monokai-Pro-3-hex          : #FFD866;
+$Monokai-Pro-4-hex          : #78DCE8;
+$Monokai-Pro-5-hex          : #AB9DF2;
+
+/* Color Theme Swatches in RGBA */
+// $Monokai-Pro-1-rgba: rgba(255,96,135, 1);
+// $Monokai-Pro-2-rgba: rgba(168,219,117, 1);
+// $Monokai-Pro-3-rgba: rgba(255,216,102, 1);
+// $Monokai-Pro-4-rgba: rgba(119,219,232, 1);
+// $Monokai-Pro-5-rgba: rgba(170,156,242, 1);
+
+// /* Color Theme Swatches in HSLA */
+// $Monokai-Pro-1-hsla: hsla(345, 100, 69, 1);
+// $Monokai-Pro-2-hsla: hsla(90, 59, 66, 1);
+// $Monokai-Pro-3-hsla: hsla(44, 100, 70, 1);
+// $Monokai-Pro-4-hsla: hsla(186, 70, 69, 1);
+// $Monokai-Pro-5-hsla: hsla(249, 76, 78, 1);
+
+
 $body-color                 : #fff;
 $background-color           : $darkest-gray;
 $code-background-color      : #fafafa;
@@ -63,11 +85,15 @@ $code-background-color-dark : $light-gray;
 $text-color                 : $lighter-gray;
 $border-color               : $lighter-gray;
 
+/* explicit colors */
+$author-name-color          : $Monokai-Pro-3-hex;
+$page-title-color           : $Monokai-Pro-1-hex;
+
 $primary-color              : #7a8288;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : $dark-orchid;
+$info-color                 : $Monokai-Pro-2-hex;
 
 /* brands */
 $behance-color              : #1769FF;
@@ -100,8 +126,8 @@ $xing-color                 : #006567;
 $link-color                 : $info-color;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$masthead-link-color        : $Monokai-Pro-5-hex;
+$masthead-link-color-hover  : mix(#000, $Monokai-Pro-5-hex, 25%);
 
 
 /*

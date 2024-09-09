@@ -8,23 +8,23 @@
 
 # Basic Site Settings
 locale                   : "en-UK"
-title                    : "Home"
+title                    : "HS"
 title_separator          : "-"
 name                     : &name "Hattie Stewart"
 description              : &description "PhD candidate in ML and Astronomy at the University of Bristol"
 url                      : https://hstewart93.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/hstewart93/hstewart93.github.io"
+repository               : "hstewart93/hstewart93.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "hattie-profile.png"
+  avatar           : "hattie-profile-2.jpg"
   name             : "Hattie Stewart"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Candidate in Astronomy, tech nerd, feminist, she/her"
+  bio              : "Astronomer, tech nerd, feminist, she/her"
   location         : "Bristol"
   employer         : "University of Bristol"
   uri              : # URL
@@ -204,7 +204,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -250,10 +250,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _projects
   - scope:
       path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
       author_profile: true

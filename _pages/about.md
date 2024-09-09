@@ -1,13 +1,18 @@
 ---
 permalink: /
-title: "This site is currently under maintainance."
+title: ""
 author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Thanks for stopping by, I'm currently working on the site. Please check back another time.
+# Hi, I'm Dr Hattie Stewart
+
+I am a postdoc at the University of Bristol applying Machine Learning imaging techniques to astronomical datasets. My PhD research applied segmentation methods to radio continuum data from SKA precursor surveys to detect and characterise radio sources. I am now applying these techniques to explore new data reduction methods for observations of exoplanetary atmospheres with JWST.
+
+I am interested in the concept of fundamental models in astronomy: what do they look like, can/should we develop them and how do we go about it? 
+
 
 <!-- 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
