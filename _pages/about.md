@@ -2,6 +2,7 @@
 permalink: /
 title: ""
 author_profile: false
+author_picture: true
 redirect_from: 
   - /about/
   - /about.html
